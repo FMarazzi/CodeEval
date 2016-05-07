@@ -8,6 +8,7 @@ public class Array_Absurdity {
         while ((line = buffer.readLine()) != null) {
             line = line.trim();
             String[] Split = line.split(";");
+            System.out.println(line);
             
         } 
     }
