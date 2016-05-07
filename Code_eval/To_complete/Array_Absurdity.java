@@ -9,7 +9,6 @@ public class Array_Absurdity {
             line = line.trim();
             String[] Split = line.split(";");
             System.out.println(line);
-            
         } 
     }
 }
