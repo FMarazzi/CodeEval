@@ -1,3 +1,5 @@
+package Easy;
+
 import java.io.*;
 public class Rightmost {
     public static void main (String[] args) throws IOException {

@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Main {
+public class Main_template {
     public static void main (String[] args) throws IOException {
         File file = new File(args[0]);
         BufferedReader buffer = new BufferedReader(new FileReader(file));

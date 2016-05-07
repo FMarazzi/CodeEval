@@ -1,5 +1,7 @@
+package Easy;
+
 import java.io.*;
-public class Unique_el {
+public class Unique_Elements {
 	public static void main (String[] args) throws IOException {
         File file = new File(args[0]);
         BufferedReader buffer = new BufferedReader(new FileReader(file));

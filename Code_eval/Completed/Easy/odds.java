@@ -1,3 +1,5 @@
+package Easy;
+
 
 public class odds {
 	public static void main(String[] args) {
