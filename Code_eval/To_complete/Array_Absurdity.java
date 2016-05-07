@@ -1,6 +1,6 @@
 import java.io.*;
-public class Main {
-    public static void main (String[] args) throws IOException {
+public class Array_Absurdity {
+	public static void main (String[] args) throws IOException {
         File file = new File(args[0]);
         BufferedReader buffer = new BufferedReader(new FileReader(file));
         String line;
@@ -8,6 +8,6 @@ public class Main {
             line = line.trim();
             String[] Split = line.split(",");
             
-        }
+        } 
     }
 }
