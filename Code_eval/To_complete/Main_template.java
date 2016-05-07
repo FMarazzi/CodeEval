@@ -1,4 +1,5 @@
 import java.io.*;
+import java.util.*;
 
 public class Main_template {
     public static void main (String[] args) throws IOException {
@@ -8,7 +9,7 @@ public class Main_template {
         while ((line = buffer.readLine()) != null) {
             line = line.trim();
             String[] Split = line.split(",");
-            
         }
+        buffer.close();
     }
 }
